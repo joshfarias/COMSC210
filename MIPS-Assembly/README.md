@@ -1,1 +1,1 @@
-COMSC 210 MIPS Assembly programming projects
+COMSC 210 MIPS Assembly Programming Projects
