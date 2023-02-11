@@ -1,0 +1,259 @@
+/************************************************************************
+#
+#       Program Name: style.css
+#
+#       Description: Cascading Style Sheet used to format HTML website
+#
+#       Language: CSS
+#
+#       Date: 2/10/2023
+#
+#       Author: Joshua Farias
+#
+************************************************************************/
+
+body{
+    /*font is set to 15px with 1.5x line-height Arial, Helvetica, and san-serif are the fonts used*/
+    font: 15px/1.5 Arial, Helvetica, san-serif; 
+    padding:0; /*space between content and border of elements are set to 0*/
+    margin:0; /*space outside of an element is set to 0*/
+    background-color: #f4f4f4; /*body background set to light-gray*/
+  }
+
+  /* Global: Applied to entire web page */
+  .container{
+    width:80%; /*set width of the element to 80% of parent container*/
+    margin:auto; /*center element horizontally*/
+    overflow:hidden; /*hide overflow*/
+  }
+
+  /*reset default margins and padding for unordered items in list*/
+  ul{
+    margin:0;
+    padding:0;
+  }
+  
+  /*button_1 styling, adjust height, make background light blue, remove border, add padding, make text white*/
+  .button_1{
+    height:38px;
+    background:#328cf3;
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#ffffff;
+  }
+
+  /*dark class styling, add padding, set background color to navy blue, make text color white, add margins*/
+  .dark{
+    padding:15px;
+    background: #032d47;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  
+/* Headers */
+
+  /*set background color to navy blue, set text color to white, add padding, set minimum height, add light blue border*/
+  header{
+    background:#032d47;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#328cf3 5px solid;
+  }
+  
+  /*Link headers, set color to white, remove underline, set to uppercast, adjust font size to 16px*/
+  header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:16px;
+  }
+  
+  /*List items within header, float items to left, display items inline, add padding to left and right or list items*/
+  header li{
+    float:left;
+    display:inline;
+    padding:0 20px 0 20px;
+  }
+  
+  /*Float brading to left of page within header*/
+  header #branding{
+    float:left;
+  }
+
+  /*Remove margin from header*/
+  header #branding h1{
+    margin:0;
+  }
+  
+  /*float nav links to the right, set top margin to 10px and bottom margin to 25px*/
+  header nav{
+    float:right;
+    margin-top:10px;
+    margin-bottom:25px;
+  }
+  
+  /*set color to light blue and make text bold*/
+  header .highlight, header .current a{
+    color:#328cf3;
+    font-weight:bold;
+  }
+  
+  /*set color to light gray and make text bold on hover*/
+  header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+  }
+  
+  /*Showcase*/
+  
+  /*set min height to 400px, add background image and set it to not repeat, center text and set text color to white*/
+  #showcase{
+    min-height:400px;
+    background:url('../img/showcase.jpg') no-repeat 0 -400px;
+    text-align:center;
+    color:#ffffff;
+  }
+  
+  /*set top margin to 100px, set font size to 55px and set bottom margin to 10px*/
+  #showcase h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px
+  }
+  
+  /*set font size of the paragraph to 20px*/
+  #showcase p{
+    font-size:20px;
+  }
+  
+  /* NewsLetter */
+  #newsletter{
+    padding:15px;
+    color:#ffffff;
+    background:#032d47;
+  }
+  
+  /*float newletter h1 to left*/
+  #newsletter h1{
+    float:left;
+    
+  }
+  /*set style for form, float to right and make top margin 15px*/
+  #newsletter form{
+    float:right;
+    margin-top:15px;
+  }
+  
+  /*set styles for email input field*/
+  #newsletter input[type="email"]{
+    padding:4px;
+    height:25px;
+    width:3000px;
+  }
+  
+  /*Boxes*/
+
+  /*add 20px margin to top of boxes*/
+  #boxes{
+    margin-top:20px;
+  }
+
+  /*float boxes left, center align text and set width to 30% and adds padding of 10px
+    */
+  #boxes .box{
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:10px;
+  }
+  
+  /*set width of images within boxes to 90px*/
+  #boxes .box img{
+    width:90px;
+  }
+  
+  /* Sidebar */
+
+  /*float sidebar right, set width to 30% and set top margin to 10px*/
+  aside#sidebar{
+    float:right;
+    width:30%;
+    margin-top:10px;
+  }
+
+  /*set width and padding of inputs within textarea*/
+  aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width:90%;
+    padding:5px;
+  }
+
+  /* Main-col */
+
+  /*float left and set width of main column to 65%*/
+  article#main-col{
+    float:left;
+    width:65%;
+  }
+
+  /* Services */
+
+  /*remove bulletpoints from list, add padding of 20px, set border and background colors and adjust margins */
+  ul#services li{
+    list-style: none;
+    padding:20px;
+    border: #cccccc solid 1px;
+    margin-bottom:5px;
+    background: #e6e6e6;
+  }
+  
+  /*add padding, adjust margin, set text color to white, set background color to navy blue and center align text*/
+  footer{
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:#032d47;
+    text-align:center;
+  }
+  
+  /*Media Queries*/
+
+  /*modify style for mobile devices/devices with screen width below 768px*/
+  @media(max-width:768px){
+    header#branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar{
+      float:none;
+      text-align:center;
+      width:100%;
+    }
+  }
+  
+  /*add padding to bottom of header*/
+  header{
+    padding-bottom:20px;
+  }
+  
+  /*showcase heading*/
+  #showcase h1{
+    margin-top:40px;
+  }
+  
+  /*newletter and quote buttons*/
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+  
+  /*Email input and quote output*/
+  #newsletter form input[type="email"],.quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
