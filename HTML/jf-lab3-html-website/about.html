@@ -1,0 +1,107 @@
+<!----------------------------------------------------------
+#
+#       Program Name: about.html
+#
+#       Description: About page HTML file for Lab3
+#
+#       Language: HTML
+#
+#       Date: 2/10/2023
+#
+#       Author: Joshua Farias
+#
+------------------------------------------------------------>
+<!DOCTYPE html>
+<html>
+
+<!--------------------------------------------------------
+# The header section includes meta information about the
+# document, including the character set, viewport, 
+# description, keywords, author, title, 
+# and a link to the stylesheet for the page.
+--------------------------------------------------------->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Afortable and professional web design">
+  <meta name="keywords" content="web design, affordable web design">
+  <meta name="author" content="Joshua Farias">
+  <title> COMSC230 Web Design | About</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<!--------------------------------------------------------
+# The header section is a container with a branding and 
+# navigation bar. The branding bar displays the name 
+# "COMSC230 Web Design" while the navigation bar includes 
+# links to the Home, About, and Services pages.
+# changes "current" class to about.html
+--------------------------------------------------------->
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">COMSC230</span> Web Design</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+<!--------------------------------------------------------
+# Creates a newsletter subscription form with text input
+# field for an email with and a button to submit.
+--------------------------------------------------------->
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe to our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+<!--------------------------------------------------------
+# Defines main section in about.html, creates 'About Us'
+# section with two paragraphs of text (dummy ipsum text).
+--------------------------------------------------------->
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+            <h1 class="page-title">About Us</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget purus mattis, interdum purus in, imperdiet sapien. Praesent nec mattis leo. Morbi ornare sed lacus non luctus. Etiam cursus gravida mauris, ac mollis ligula volutpat quis. Cras et tristique massa. Pellentesque ac enim sodales, efficitur sapien maximus, gravida arcu. Maecenas aliquet blandit nisi, eu vestibulum purus dictum sed. Pellentesque quam mauris, sollicitudin et aliquam ac, lacinia at neque. Donec luctus sem et consectetur facilisis. Sed non ex eu nisl dignissim euismod.
+            </p>
+            <p>
+                Praesent libero metus, tincidunt a pulvinar interdum, laoreet vitae lacus. Nunc quis purus vitae sem mattis pellentesque posuere a odio. Aliquam eleifend molestie velit non placerat. Sed sit amet posuere eros, in faucibus tellus. Quisque orci ligula, sollicitudin non neque vel, sodales condimentum enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas imperdiet purus sed posuere sodales. Nam nisl lectus, egestas molestie condimentum ac, dictum in erat. Curabitur ligula est, lobortis vel urna sit amet, maximus iaculis magna.    
+            </p>
+        </article>
+
+<!--------------------------------------------------------
+# Defines sidebar section of webpage, creates "What We Do"
+# header and a paragraph of of text (dummy ipsum text)
+# within a dark class container (background is navy blue)
+--------------------------------------------------------->
+        <aside id="sidebar">
+            <div class="dark">
+            <h3>What We Do</h3>
+            <p>Vestibulum vitae nisi mauris. Etiam quis nibh eu diam tincidunt commodo ac quis turpis. Integer varius lacus eget porttitor varius. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+        </aside>
+        
+      </div>
+    </section>
+    
+<!--------------------------------------------------------
+# Creates a footer with a copyright and date.
+--------------------------------------------------------->
+    <footer>
+        <p>RWU COMSC230 Web Design, Copyright &copy; 2023</p>
+    </footer>
+  </body>
+</html>
