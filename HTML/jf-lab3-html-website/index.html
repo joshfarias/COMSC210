@@ -29,5 +29,88 @@
   <title> COMSC230 Web Design | Welcome</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
- 
+
+<!--------------------------------------------------------
+# The header section is a container with a branding and 
+# navigation bar. The branding bar displays the name 
+# "COMSC230 Web Design" while the navigation bar includes 
+# links to the Home, About, and Services pages.
+--------------------------------------------------------->
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1><span class="highlight">COMSC230</span> Web Design</h1>
+      </div>
+      <nav>
+        <ul>
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<!--------------------------------------------------------
+# The showcase section displays a message with the text:
+# "Affordable Professional Web Design" and a description
+# of the web design services (dummy lipsum text).
+--------------------------------------------------------->
+  <section id="showcase">
+    <div class="container">
+      <h1>Affordable Professional Web Design</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </section>
+
+
+<!--------------------------------------------------------
+# Creates a newsletter subscription form with text input
+# field for an email with and a button to submit.
+--------------------------------------------------------->
+  <section id="newsletter">
+    <div class="container">
+      <h1>Subscribe to our Newsletter</h1>
+      <form>
+        <input type="email" placeholder="Enter Email...">
+        <button type="submit" class="button_1">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+<!--------------------------------------------------------
+# Creates a container to display information about web
+# design services that are offered, HTML5, CSS3 and
+# Graphic Design with descriptions (dummy lipsum text).
+--------------------------------------------------------->
+  <section id="boxes">
+    <div class="container">
+      <div class="box">
+        <img src="./img/logo_html.png">
+        <h3>HTML5 Markup</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      
+       <div class="box">
+         <img src="./img/logo_css.png">
+        <h3>CSS3 Styling</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      
+       <div class="box">
+         <img src="./img/logo_brush.png">
+         <h3>Graphic Design</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+  </section>
+
+<!--------------------------------------------------------
+# Creates a footer with a copyright and date.
+--------------------------------------------------------->
+  <footer>
+    <p>RWU COMSC230 Web Design, Copyright &copy; 2023</p>
+  </footer>
+</body>
 </html>
