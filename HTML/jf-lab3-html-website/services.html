@@ -1,0 +1,135 @@
+<!----------------------------------------------------------
+#
+#       Program Name: services.html
+#
+#       Description: Services Page HTML file for Lab3
+#
+#       Language: HTML
+#
+#       Date: 2/10/2023
+#
+#       Author: Joshua Farias
+#
+------------------------------------------------------------>
+<!DOCTYPE html>
+<html>
+
+<!--------------------------------------------------------
+# The header section includes meta information about the
+# document, including the character set, viewport, 
+# description, keywords, author, title, 
+# and a link to the stylesheet for the page.
+--------------------------------------------------------->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Afortable and professional web design">
+  <meta name="keywords" content="web design, affordable web design">
+  <meta name="author" content="Joshua Farias">
+  <title>COMSC230 Web Design | Services</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<!--------------------------------------------------------
+# The header section is a container with a branding and 
+# navigation bar. The branding bar displays the name 
+# "COMSC230 Web Design" while the navigation bar includes 
+# links to the Home, About, and Services pages.
+# changes "current" class to services.html
+--------------------------------------------------------->
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">COMSC230</span> Web Design</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="current"><a href="services.html">Services</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+<!--------------------------------------------------------
+# Creates a newsletter subscription form with text input
+# field for an email with and a button to submit.
+--------------------------------------------------------->
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe to our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+<!--------------------------------------------------------
+# Creates main section of services.html page and lists
+# services provided by the site along with pricing with
+# paragraphs (dummy ipsum text) describing each service.
+--------------------------------------------------------->
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+            <h1 class="page-title">Services</h1>
+            <ul id="services">
+                <li>
+                    <h3>Website Design</h3>
+                    <p>Phasellus ultrices, leo dignissim fermentum maximus, magna felis volutpat purus, eu mattis eros lacus in arcu. Fusce eu nisi quis massa tempor rhoncus sit amet ut neque. Mauris id imperdiet nunc. Proin id lorem porta, mattis ipsum quis, lacinia nibh. Sed facilisis quam felis, ut pharetra erat dapibus in. Ut sit amet nunc sed metus accumsan efficitur faucibus vitae lacus. Donec nibh nisi, sodales sed euismod vitae, lacinia ultrices tortor. Sed et laoreet dolor. Quisque in ipsum elit. Fusce eros massa, ullamcorper in facilisis venenatis, elementum sit amet elit. Nam commodo in mi et lacinia. Etiam consectetur, diam et lacinia tempor, nisi orci interdum magna, ut sodales odio elit eu dolor. Nullam laoreet sed felis ut lacinia.</p>
+                    <p>Pricing: $1,000 - $3,000</p>
+                </li>
+                <li>
+                    <h3>Website Maintenance</h3>
+                    <p>Phasellus ultrices, leo dignissim fermentum maximus, magna felis volutpat purus, eu mattis eros lacus in arcu. Fusce eu nisi quis massa tempor rhoncus sit amet ut neque. Mauris id imperdiet nunc. Proin id lorem porta, mattis ipsum quis, lacinia nibh. Sed facilisis quam felis, ut pharetra erat dapibus in. Ut sit amet nunc sed metus accumsan efficitur faucibus vitae lacus. Donec nibh nisi, sodales sed euismod vitae, lacinia ultrices tortor. Sed et laoreet dolor. Quisque in ipsum elit. Fusce eros massa, ullamcorper in facilisis venenatis, elementum sit amet elit. Nam commodo in mi et lacinia. Etiam consectetur, diam et lacinia tempor, nisi orci interdum magna, ut sodales odio elit eu dolor. Nullam laoreet sed felis ut lacinia.</p>
+                    <p>Pricing: $250/Month</p>
+                </li>
+                <li>
+                    <h3>Website Hosting</h3>
+                    <p>Phasellus ultrices, leo dignissim fermentum maximus, magna felis volutpat purus, eu mattis eros lacus in arcu. Fusce eu nisi quis massa tempor rhoncus sit amet ut neque. Mauris id imperdiet nunc. Proin id lorem porta, mattis ipsum quis, lacinia nibh. Sed facilisis quam felis, ut pharetra erat dapibus in. Ut sit amet nunc sed metus accumsan efficitur faucibus vitae lacus. Donec nibh nisi, sodales sed euismod vitae, lacinia ultrices tortor. Sed et laoreet dolor. Quisque in ipsum elit. Fusce eros massa, ullamcorper in facilisis venenatis, elementum sit amet elit. Nam commodo in mi et lacinia. Etiam consectetur, diam et lacinia tempor, nisi orci interdum magna, ut sodales odio elit eu dolor. Nullam laoreet sed felis ut lacinia.</p>
+                    <p>Pricing: $25/Month</p>
+                </li>
+
+            </ul>
+        </article>
+
+<!--------------------------------------------------------
+# Creates a get a quote section in the sidebar of the site
+# this section is within the dark class container so the 
+# background is navy blue. There are 3 different input
+# values that the user can enter being: Name, Email and
+# a message along with a "send" button.
+--------------------------------------------------------->
+        <aside id="sidebar">
+            <div class="dark">
+            <h3>Get a Quote</h3>
+            <form class="quote">
+                <div>
+                    <label>Name</label><br>
+                    <input type="text" placeholder="Name">
+                </div>
+                <div>
+                    <label>Email</label><br>
+                    <input type="text" placeholder="Email Address">
+                </div>
+                <div>
+                    <label>Message</label><br>
+                    <textarea placeholder="Message"></textarea>
+                </div>
+                <button class=""button_1 type="submit">Send</button>
+            </form>
+        
+      </div>
+    </section>
+    
+<!--------------------------------------------------------
+# Creates a footer with a copyright and date.
+--------------------------------------------------------->
+    <footer>
+        <p>RWU COMSC230 Web Design, Copyright &copy; 2023</p>
+    </footer>
+  </body>
+</html>
