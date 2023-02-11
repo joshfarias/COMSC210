@@ -2,7 +2,7 @@
 # Description: Lab1: Hello World Program
 # Language: ASM
 # Date: 1/28/2023
-# Location: RWU
+# Location: RWU 
 # Author: Joshua Farias
 
 .data
