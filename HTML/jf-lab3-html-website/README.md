@@ -25,4 +25,11 @@ This project contains the following branches:
 - Services page for website [servicesFINAL](https://github.com/joshfarias/COMSC210/blob/servicesFINAL/HTML/jf-lab3-html-website/services.html).
 
 ## Website Images
--![Homepage](https://i.imgur.com/jQtNOD3.png).
+- Homepage
+![Homepage](https://i.imgur.com/jQtNOD3.png)
+
+- About
+![About](https://i.imgur.com/1c1QI0y.png)
+
+- Services
+![Services](https://i.imgur.com/0N4z9GU.png)
