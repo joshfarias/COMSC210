@@ -26,10 +26,10 @@ This project contains the following branches:
 
 ## Website Images
 - Homepage
-![Homepage](https://i.imgur.com/jQtNOD3.png)
+![Homepage](https://i.imgur.com/uqBYT1H.png)
 
 - About
-![About](https://i.imgur.com/1c1QI0y.png)
+![About](https://i.imgur.com/jUqyvuP.png)
 
 - Services
-![Services](https://i.imgur.com/0N4z9GU.png)
+![Services](https://i.imgur.com/Ua69XOF.png)
