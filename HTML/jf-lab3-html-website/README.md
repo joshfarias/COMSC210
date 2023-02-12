@@ -7,8 +7,8 @@ This project contains the following branches:
 ## index.html
 - Header Section [indexPT1](https://github.com/joshfarias/COMSC210/blob/indexPT1/HTML/jf-lab3-html-website/index.html).
 - Showcase & Newsletter [indexPT2](https://github.com/joshfarias/COMSC210/blob/indexPT2/HTML/jf-lab3-html-website/index.html).
-- Container for text & images[indexPT3](https://github.com/joshfarias/COMSC210/blob/indexPT3/HTML/jf-lab3-html-website/index.html).
-- Footer[indexFINAL](https://github.com/joshfarias/COMSC210/blob/indexPTFINAL/HTML/jf-lab3-html-website/index.html).
+- Container for text & images [indexPT3](https://github.com/joshfarias/COMSC210/blob/indexPT3/HTML/jf-lab3-html-website/index.html).
+- Footer [indexFINAL](https://github.com/joshfarias/COMSC210/blob/indexPTFINAL/HTML/jf-lab3-html-website/index.html).
 
 ## style.css
 - Body, UL & Button_1 [stylePT1](https://github.com/joshfarias/COMSC210/blob/stylePT1/HTML/jf-lab3-html-website/css/style.css).
