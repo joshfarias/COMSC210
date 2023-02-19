@@ -2,7 +2,7 @@
 #
 #  COMSC210
 #
-#  Description: Encypt & Decrypt user input using Caesar Cipher 
+#  Description: Encrypt & Decrypt user input using Caesar Cipher 
 # (ROT13) algorithm and apend input and output to text files
 #
 #  Language: MIPS ASM
