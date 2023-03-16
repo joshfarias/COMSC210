@@ -2,7 +2,6 @@
 Repo for COMSC210 programming projects.
 
 <h1>
-  # HTML & CSS
   <img src="https://github.com/joshfarias/COMSC210/raw/main/images/html.png" alt="html" height="100">
   <img src="https://github.com/joshfarias/COMSC210/raw/main/images/css.png" alt="css" height="100">
 </h1>
