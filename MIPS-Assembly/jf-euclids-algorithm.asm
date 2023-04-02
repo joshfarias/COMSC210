@@ -1,6 +1,6 @@
 ########################################################################
 #
-#	Program Name: euclidean-algorithm.asm
+#	Program Name: jf-euclids-algorithm.asm
 # 
 #	Description: Implementation of the Euclidean Algorithm in
 #	MIPS using function calls and jump and link instructions
