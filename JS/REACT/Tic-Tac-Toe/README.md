@@ -15,15 +15,15 @@
 
 ## Images
 
-- `npm install`:
+### `npm install`:
 
 ![npm install](https://github.com/joshfarias/COMSC210/blob/main/JS/REACT/Tic-Tac-Toe/images/npm-install.png)
 
-- `npm start`:
+### `npm start`:
 
 ![npm start](https://github.com/joshfarias/COMSC210/blob/main/JS/REACT/Tic-Tac-Toe/images/npm-start.png)
 
-- Running app:
+### Running app:
 
 ![npm start](https://github.com/joshfarias/COMSC210/blob/main/JS/REACT/Tic-Tac-Toe/images/tictactoe.png)
 
